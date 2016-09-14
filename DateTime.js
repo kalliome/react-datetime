@@ -373,7 +373,7 @@ var Datetime = React.createClass({
 			children = [ DOM.input( assign({
 				key: 'i',
 				type:'text',
-				className: 'form-control',
+				className: className,
 				onFocus: this.openCalendar,
 				onChange: this.onInputChange,
 				onKeyDown: this.onInputKey,
